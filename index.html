@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>file metadata microservice</title>
+</head>
+<body>
+  <p>submit a file to see its filesize in bytes</p>
+  <form action='/api/upload' method='post' enctype='multipart/form-data'>
+    <input type='file' name='myFile' class='form-control'/>
+    <button type='submit' class='btn btn-block btn-primary'>Submit</button>
+  </form>
+</body>
+</html>
