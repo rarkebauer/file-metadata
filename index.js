@@ -6,8 +6,6 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-var url = require('./url.js');
-
 function urlRoute(req, res) {
 	var search = req.params[0];
 	res.json(search);
